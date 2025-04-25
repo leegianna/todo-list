@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <script src="main.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/9c69f27811.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="list">
+      <header>Todo List</header>
+      <ul class="items">
+        <li class="item__row">
+          <div class="item">
+            <input type="checkbox" class="item__checkbox" />
+            <span class="item__name">Todo</span>
+            <button class="item__edit">
+              <i class="fa-solid fa-pen"></i>
+            </button>
+            <button class="item__delete">
+              <i class="fa-solid fa-trash"></i>
+            </button>
+          </div>
+        </li>
+      </ul>
+      <footer>
+        <input type="text" class="footer__input" />
+        <button class="footer__button">
+          <i class="fa-solid fa-plus"></i>
+        </button>
+      </footer>
+    </section>
+  </body>
+</html>
