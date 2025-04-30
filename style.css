@@ -81,3 +81,8 @@ input[type='text'] {
   padding: 0 10px;
   margin-left: 10px;
 }
+
+.checked {
+  text-decoration: line-through;
+  color: #9f9f9f;
+}
