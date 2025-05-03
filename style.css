@@ -40,7 +40,8 @@ button {
 
 .items {
   list-style-type: none;
-  height: 100%;
+  flex: 1;
+  overflow-y: auto;
 }
 
 .item {
